@@ -4,8 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea house resource</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <style>
+        .font-manrope {
+        font-family: "Manrope", sans-serif;
+    } 
+
+    </style>
 </head>
 <body>
+    <header>
+
+    </header>
+    <main class="max-w-[75%] mx-auto font-manrope" >
+        <!-- banner part start -->
+        <section class="mt-5 md:flex mb-20">
+            <!-- banner text -->
+            <div class="">
+                <h1 class="text-4xl lg:text-5xl font-extrabold text-[#1C1C1C]">It's good <br> tea time at The <br> Tea House</h1>
+                <p class="text-sm text-gray-500 mt-5">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="px-3 py-2 rounded-lg mt-5 text-sm font-medium text-[#FFFFFF] bg-gradient-to-r from-[#FF0000] to-[#FF8938] ">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+            </div>
+            <!-- banner image -->
+             <div class="relative">
+               <div> <img class="md:w-[95%] md:ml-[10%]" src="./images/banner.png"></div>
+                <div class="flex items-center mt-5 gap-2 shadow-md bg-white px-3 py-3 rounded-lg absolute top-32 left-4 md:top-32 lg:top-80 lg:left-48 ">
+                    <div>
+                        <i class="fa-solid fa-star text-xl text-orange-600"></i></div>
+                    <div>
+                        <h2 class="text-xl font-extrabold">5.00</h2>
+                        <p class="text-sm text-gray-500">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+             </div>
+        </section>
+        <!-- events part start -->
+        <section>
+            <div class="text-center">
+                <h2 class="text-2xl font-bold md:text-3xl mb-3">News & Events</h2>
+                <p class="text-sm text-gray-500 mb-10">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            </div>
+            <!-- card -->
+            <div class="grid gap-[4%] grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-20">
+                <!-- card-1 -->
+                 <div class=" border-2 shadow-md p-3">
+                    <img class="" src="./images/news-1.png">
+                    <p class="text-sm text-gray-500 mt-3">Feb 05, 2027</p>
+                    <h3 class="text-lg font-bold mb-2">Collecting 8 points for discount</h3>
+                    <p class="text-sm text-gray-500 mb-2">There are many variations of passages of Lorem<br> Ipsum available.</p>
+                    <h6><a class="font-bold text-sm" href="">Learn More</a></h6>
+                    
+                 </div>
+                 <!-- card-2 -->
+                 <div class=" border-2 shadow-md p-3">
+                    <img class="" src="./images/news-2.png">
+                    <p class="text-sm text-gray-500 mt-3">Feb 05, 2027</p>
+                    <h3 class="text-lg font-bold mb-2">Collecting 8 points for discount</h3>
+                    <p class="text-sm text-gray-500 mb-2">There are many variations of passages of Lorem<br> Ipsum available.</p>
+                    <h6><a class="font-bold text-sm" href="">Learn More</a></h6>
+                    
+                 </div>
+                 <!-- card-3 -->
+                 <div class="border-2 shadow-md p-3  ">
+                    <img class="" src="./images/news-3.png">
+                    <p class="text-sm text-gray-500 mt-3">Feb 05, 2027</p>
+                    <h3 class="text-lg font-bold mt-2 mb-2">Collecting 8 points for discount</h3>
+                    <p class="text-sm text-gray-500 mb-2">There are many variations of passages of Lorem<br> Ipsum available.</p>
+                    <h6><a class="font-bold text-sm" href="">Learn More</a></h6>
+                    
+                 </div>
+            </div>
+          </section>
+    </main>
+    <footer>
+
+    </footer>
     
 </body>
 </html>
